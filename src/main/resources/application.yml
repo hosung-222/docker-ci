@@ -6,16 +6,16 @@ spring:
     init:
       platform: mysql
       mode: always
-  datasource:
-    url: jdbc:mysql://localhost:3306/my-database
-    username: root # Database ID
-    password: gik112233! # Database Password
-    driver-class-name: com.mysql.cj.jdbc.Driver
 #  datasource:
-#    url: jdbc:mysql://my-database:3306/my-database
-#    username: my-database # Database ID
+#    url: jdbc:mysql://localhost:3306/cloud
+#    username: root # Database ID
 #    password: gik112233! # Database Password
 #    driver-class-name: com.mysql.cj.jdbc.Driver
+  datasource:
+    url: jdbc:mysql://my-database:3306/my-database
+    username: my-database # Database ID
+    password: gik112233! # Database Password
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
     hibernate:
